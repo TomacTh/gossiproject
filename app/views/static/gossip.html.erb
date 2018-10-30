@@ -1,0 +1,13 @@
+<h1> Welcome </h1>
+<p>Voici le gossip <%= params[:id] %></p>
+
+
+<div class="cardbox">
+<div class="card border-light mb-3" style="max-width: 18rem;">
+ <div class="card-header">Gossip <%=@gossip.id%></div>
+ <div class="card-body">
+   <h5 class="card-title"><%= @gossip.author %></h5>
+   <p class="card-text"><%= @gossip.content%></p>
+ </div>
+</div>
+</div>
