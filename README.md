@@ -1,24 +1,10 @@
-# README
+#  The Gossip Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+This project was made by Thomas Charvet, in the purpose to learn how to use the basics of Rails(routes, wiews,database, css, bootsctrap)
 
-* Ruby version
+## Instructions
 
-* System dependencies
+First, clone or download the repo, then run `bundle install` then run `rails db:migrate` and after do a `rails db:seed`.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[lien heroku](https://gossiprojecthpnice.herokuapp.com/]
